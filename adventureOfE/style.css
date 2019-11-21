@@ -1,0 +1,84 @@
+/* CSS Demo - Professor Loveless 11/12/19 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/*syntax = selector {declaration (property: value);}
+ example h1 {color: #ff0000;} */
+
+/* More about Web Safe Fonts - https://websitesetup.org/web-safe-fonts-html-css/ */
+/* Bonus - how do we import a font from Google Fonts? - fonts.google.com */
+
+/*------------------ */
+/* General Style */
+/*------------------ */
+
+/* background-color: c3fdff; //// color: #000; */
+
+body {
+  /* padding, background-color */
+    background-color: #c3fdff;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*style h1, h2, h3, h4, h5, h6 */
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  /* color (font), font-size */
+  /* margin - how do we add more space between each paragraph? */
+}
+
+
+/* link ----> #ffeb3b -> on hover: #ffff72*/
+a {
+  /* color, text-decoration */
+    color: #00e1ff;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+
+/* for more about :hover selectors: https://www.w3schools.com/cssref/sel_hover.asp */
+
+
+/*------------------ */
+/* Start Page */
+/*------------------ */
+
+#storytitle {
+    color: #ff0000;
+}
+
+
+/*------------------ */
+/* Choices */
+/*------------------ */
+
+.choice-light {
+    background-color: #5c9aff;
+}
+
+.choice-dark {
+    background-color: #3a3540;
+    color: #fff;
+}
+
+.choice-dark a:hover{
+    color: #fff;
+}
+
+
+
+/* Make the page of each choice have a different background-color and text color */
+
+/* Choice 1 - background-color: #c43e00, color: #fff;*/
+/* Choice 2 - background-color: #003b8e, color: #fff;*/
